@@ -29,26 +29,26 @@ td {
 }
 
 ul {
-    list-style-type: disc; 
-    margin-left: 40px; 
-    margin-top: 10px; 
-    margin-bottom: 10px; 
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 ol {
-    list-style-type: decimal; 
-    margin-left: 35px; 
-    margin-top: 30px; 
-    margin-bottom: 30px; 
+    list-style-type: decimal;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 li {
-    margin-top: 5px; 
-    margin-bottom: 5px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 h2 {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 .div1 {
