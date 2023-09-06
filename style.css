@@ -5,11 +5,13 @@
 
 body {
     font-family: sans-serif;
+    color: #fff
 }
 
 a {
     font-family: sans-serif;
     text-decoration: none;
+    color: gray;
 }
 
 table {
@@ -24,6 +26,29 @@ td {
     text-align: center;
     padding: 8px;
     color: #fff
+}
+
+ul {
+    list-style-type: disc; 
+    margin-left: 40px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+ol {
+    list-style-type: decimal; 
+    margin-left: 35px; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+
+li {
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+h2 {
+    margin-left: 20px; 
 }
 
 .div1 {
@@ -63,8 +88,11 @@ td {
 }
 
 .logo {
-    width: 100px;
+    width: 150px;
     height: auto;
+    position: absolute;
+    left: 20px;
+    top: 15px;
 }
 
 .nav-list {
