@@ -113,7 +113,7 @@ footer img {
     height: auto;
     position: absolute;
     left: 20px;
-    top: 15px;
+    top: 20px;
 }
 
 .nav-list {
@@ -226,6 +226,6 @@ a:hover {
     color: #fff
 }
 
-footer p:hover{
+footer p:hover {
     color: gray;
 }
