@@ -12,7 +12,9 @@
 <body>
     <header class="header2">
         <nav class="nav">
-            <a href="./index.html" class="title"><h2>Cidades Incríveis do Mundo</h2></a>
+            <a href="./index.html" class="title">
+                <h2>Cidades Incríveis do Mundo</h2>
+            </a>
             <a href="https://uniube.br/" target="_blank"><img src="imagens/UniubeLogo.png" class="logo"></img></a>
             <button class="hamburger"></button>
             <ul class="nav-list">
@@ -24,8 +26,106 @@
             </ul>
         </nav>
     </header>
-    <main class="hero">
-
+    <main class="hero3">
+        <br><br><br><br><br><br>
+        <div class="forms">
+            <h1 class="title"> Formulário de contato</h1>
+            <br><br>
+            <p class="title">Informe seus dados:</p><br>
+        </div>
+        <form>
+            <fieldset class="agrupar">
+                <div class="forms">
+                    <label for="nome"><strong>Nome</strong></label><br>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="forms">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label><br>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset><br>
+            <div class="forms">
+                <label for="email"><strong>E-mail</strong></label><br>
+                <input type="email" name="email" id="email" required>
+            </div><br>
+            <div class="forms">
+                <label><strong>Informe o seu sexo</strong></label>
+                <label><br>
+                    <input type="radio" name="sexo" value="Masculino">Masculino
+                </label>
+                <label><br>
+                    <input type="radio" name="sexo" value="Feminino">Feminino
+                </label>
+                <label><br>
+                    <input type="radio" name="sexo" value="Não informar">Não informar
+                </label>
+            </div><br>
+            <div class="forms">
+                <label for="uf"><strong>Estado</strong></label><br><br>
+                <select id="uf">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AM">AM</option>
+                    <option value="AP">AP</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MG">MG</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="PR">PR</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="RS">RS</option>
+                    <option value="SC">SC</option>
+                    <option value="SE">SE</option>
+                    <option value="SP">SP</option>
+                    <option value="TO">TO</option>
+                </select>
+            </div><br>
+            <fieldset class="agrupar">
+                <div class="forms">
+                    <label><strong>Selecione as cidades que voce mais gostou</strong></label><br><br>
+                    <input type="checkbox" id="cidade1" name="cidade1" value="Paris">
+                    <label for="cidade1">Paris</label><br>
+                    <input type="checkbox" id="cidade2" name="cidade2" value="Veneza">
+                    <label for="cidade2">Veneza</label><br>
+                    <input type="checkbox" id="cidade3" name="cidade3" value="Florença">
+                    <label for="cidade3">Florença</label><br>
+                    <input type="checkbox" id="cidade4" name="cidade4" value="Rio de Janeiro">
+                    <label for="cidade4">Rio de Janeiro</label><br>
+                    <input type="checkbox" id="cidade5" name="cidade5" value="Praga">
+                    <label for="cidade5">Praga</label><br>   
+                    <input type="checkbox" id="cidade6" name="cidade6" value="Kyoto">
+                    <label for="cidade6">Kyoto</label><br>
+                    <input type="checkbox" id="cidade7" name="cidade7" value="Istambul">
+                    <label for="cidade7">Istambul</label><br>
+                    <input type="checkbox" id="cidade8" name="cidade8" value="Cidade do Cabo">
+                    <label for="cidade8">Cidade do Cabo</label><br>
+                    <input type="checkbox" id="cidade9" name="cidade9" value="Barcelona">
+                    <label for="cidade9">Barcelona</label><br>
+                    <input type="checkbox" id="cidade10" name="cidade10" value="Sydney">
+                    <label for="cidade10">Sydney</label><br>
+                </div>
+            </fieldset>
+            <div class="forms">
+                <br>
+                <label><strong>Fale um pouco sobre suas viagens para lugares incríveis!</strong></label><br><br> 
+                <textarea name="viagem" id="viagem" rows="6" style="width: 33em;"></textarea>
+            </div><br><br>
+            <button type="submit" class="botao">Enviar Informações</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br>
     </main>
     <footer>
         <a href="https://github.com/Maurocesarf" target="_blank" rel="noopener noreferrer">
