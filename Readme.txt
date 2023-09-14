@@ -15,9 +15,9 @@ Para a realização da Avaliação Continuada de Questão Aberta (ACQA), a propo
 -Em alguma página, deverá ser utilizada a estrutura de listas ordenadas e não ordenadas *OK*
 -Em alguma página deverá ser utilizada a estrutura de tabelas *OK*
 
--Página com o nome fale_conosco.html com um formulário de contato com pelo menos as seguintes informações:
-> Um campo de texto:
-> um campo com a utilização de botões de rádio;
-> uma caixa se seleção;
-> um textarea:
-> botão para envio do formulário.
+-Página com o nome fale_conosco.html com um formulário de contato com pelo menos as seguintes informações:*OK*
+> Um campo de texto:*OK*
+> um campo com a utilização de botões de rádio;*OK*
+> uma caixa se seleção;*OK*
+> um textarea:*OK*
+> botão para envio do formulário.*OK*
