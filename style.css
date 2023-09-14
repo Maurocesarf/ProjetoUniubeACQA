@@ -234,7 +234,10 @@ fieldset {
     border: 0
 }
 
-form input, select, textarea, button {
+form input,
+select,
+textarea,
+button {
     border-radius: 2px;
     margin-left: 1em
 }
@@ -255,17 +258,22 @@ fieldset.agrupar .forms {
     margin-left: 1em
 }
 
-.forms input[type="text"], .forms input[type="email"], .forms select, .forms textarea {
+.forms input[type="text"],
+.forms input[type="email"],
+.forms select,
+.forms textarea {
     padding: 0.2em;
     border: 1px solid gray;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px black
 }
 
 .forms select option {
-    padding-right: 1em;
+    padding-right: 1em
 }
 
-.forms input:focus, .forms select:focus, .forms textarea:focus {
+.forms input:focus,
+.forms select:focus,
+.forms textarea:focus {
     background: #dcdcdc
 }
 
@@ -288,13 +296,13 @@ fieldset.agrupar .forms {
 .botao:hover {
     background: #404040;
     text-shadow: none;
-    box-shadow: inset 2px  2px 2px black
+    box-shadow: inset 2px 2px 2px black
 }
 
 .hero3 {
     background: center / cover repeat url(imagens/bg.png);
     display: flex;
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
